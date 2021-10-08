@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    min-height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    color: white;
+    font-size: 14px;
+}
+.col{    
+    min-height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    color: white;
+
+}
+.nested{
+    display: flex;
+    padding: 10px;
+}
+.nest{
+    min-height: 30px;
+    background-color: #00e265;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    color: white;
+    border: 1px solid #006cfa;
+}
+.line-break{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    min-height: 20px;
+}
